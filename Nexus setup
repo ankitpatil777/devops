@@ -1,0 +1,12 @@
+1) sudo su
+2) sudo apt update
+3) apt install docker.io -y
+4) docker run -d -p 8081:8081 sonatype/nexus3
+5) docker ps
+6) to go inside for password
+   docker exec -it <container id> /bin/bash
+7) cd sonatype-work
+8) cd cd nexus3
+9) cat admin.password
+10) copy the password
+
