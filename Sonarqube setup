@@ -1,0 +1,9 @@
+1) sudo apt update
+   INSTALL DOCKER---
+2) sudo apt  install docker.io -y
+3) sudo su
+   (free version)
+4) docker run -d -p 9000:9000 sonarqube:lts-community 
+   docker run check
+5) docker ps
+6) all traffic allow inbound
