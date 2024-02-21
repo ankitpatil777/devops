@@ -27,5 +27,7 @@ UBUNTU
   sudo systemctl status jenkins
 7) Take public ip and paste on browser with port
    <public ip>:8080
+8) install docker in EC2
+   sudo apt install docker.io
    
 
